@@ -10,6 +10,6 @@ Chacun à un model différent des autres.
 
 # Glint
 
-Le Glint permet de mettre l'item en surbrillance afin de pouvoir le rendre + "unique".
+Le Glint permet de mettre l'item en surbrillance (comme un enchantement) afin de pouvoir le rendre + "unique".
 
 <img src="/.img/glint.png">
