@@ -6,6 +6,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class RarityItem {
     private ItemStack item;
+    private final String RARITY = "LEGENDARY";
 
     public RarityItem() {
         item = new ItemStack(Material.RAW_FISH, 1);
@@ -23,10 +24,10 @@ public class RarityItem {
         }
 
         tag.set("PacRender", new NBTTagCompound());
-        tag.getCompound("PacRender").set("Rarity", new NBTTagString("MYTHIC"));
+        tag.getCompound("PacRender").set("Rarity", new NBTTagString(RARITY));
 
         tag.set("PacDisplay", new NBTTagCompound());
-        tag.getCompound("PacDisplay").set("Rarity", new NBTTagString("MYTHIC"));
+        tag.getCompound("PacDisplay").set("Rarity", new NBTTagString(RARITY));
 
         nmsItem.setTag(tag);
 
