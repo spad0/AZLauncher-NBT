@@ -6,6 +6,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class GlintItem {
     private ItemStack item;
+    private int glintColor = -999;
 
     public GlintItem() {
         item = new ItemStack(Material.BOW, 1);
@@ -24,9 +25,11 @@ public class GlintItem {
 
         tag.set("PacRender", new NBTTagCompound());
         tag.getCompound("PacRender").set("Glint", new NBTTagInt(1));
+        tag.getCompound("PacRender").set("GlintColor", new NBTTagInt(glintColor));
 
         tag.set("PacDisplay", new NBTTagCompound());
         tag.getCompound("PacDisplay").set("Glint", new NBTTagInt(1));
+        tag.getCompound("PacDisplay").set("GlintColor", new NBTTagInt(glintColor));
 
         nmsItem.setTag(tag);
 
