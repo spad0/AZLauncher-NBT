@@ -14,5 +14,6 @@ Chacun à un model différent des autres.
 # Glint
 
 Le Glint permet de mettre l'item en surbrillance (comme un enchantement) afin de pouvoir le rendre + "unique".
+On peux aussi mettre en List des Int afin de mettre en surbraillance en d'autre couleur en simultané.
 
 <img src="/.img/glint.png">
