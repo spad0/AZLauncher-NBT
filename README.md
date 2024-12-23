@@ -17,3 +17,10 @@ Le Glint permet de mettre l'item en surbrillance (comme un enchantement) afin de
 On peux aussi mettre en List des Int afin de mettre en surbraillance en d'autre couleur en simultané.
 
 <img src="/.img/glint.png">
+
+# Glint Color
+Le glint color permet de modifier la couleur de subrillance.
+Par exemple pour le rouge on peux mettre : -9388608.
+Pour un sorte de blanc / gris : -8355712.
+
+Pour les couleurs vous pouvez utiliser un code couleur Hex et le mettre en decimal avec ce site : [Converter](https://www.rapidtables.com/convert/number/hex-to-decimal.html)
