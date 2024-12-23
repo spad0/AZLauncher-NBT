@@ -19,7 +19,7 @@ On peux aussi mettre en List des Int afin de mettre en surbraillance en d'autre 
 <img src="/.img/glint.png">
 
 # Glint Color
-Le glint color permet de modifier la couleur de subrillance.<br>
+Le glint color permet de modifier la couleur de subrillance.<br><br>
 Par exemple pour le rouge on peux mettre : -9388608.<br>
 Pour un sorte de blanc / gris : -8355712.
 
