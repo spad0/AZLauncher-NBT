@@ -27,4 +27,4 @@ Pour les couleurs vous pouvez utiliser un code couleur Hex et le mettre en decim
 
 # Exemple de commande pour se give un item
 
-``/give PSEUDO minecraft:fish 1 0 {PacRender:{Glint:1,GlintColor:9388608,Rarity:"RARE"},PacDisplay:{Glint:1,GlintColor:9388608,Rarity:"RARE"},display:{Name:"Un poisson rare !"}}``
+``/give PSEUDO minecraft:fish 1 0 {PacRender:{Glint:1,GlintColor:-9388608,Rarity:"RARE"},PacDisplay:{Glint:1,GlintColor:-9388608,Rarity:"RARE"},display:{Name:"Un poisson rare !"}}``
