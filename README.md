@@ -24,3 +24,7 @@ Par exemple pour le rouge on peux mettre : -9388608.<br>
 Pour un sorte de blanc / gris : -8355712.
 
 Pour les couleurs vous pouvez utiliser un code couleur Hex et le mettre en decimal avec ce site : [Converter](https://www.rapidtables.com/convert/number/hex-to-decimal.html)
+
+# Exemple de commande pour se give un item
+
+``/give PSEUDO minecraft:fish 1 0 {PacRender:{Glint:1,GlintColor:9388608,Rarity:"RARE"},PacDisplay:{Glint:1,GlintColor:9388608,Rarity:"RARE"},display:{Name:"Un poisson rare !"}}``
